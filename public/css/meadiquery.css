@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+    .main_header_left{
+      height: auto;
+      margin: 5rem 0;
+    }
+    .main_header_right{
+      height: auto;
+      margin-top: 3rem;
+    }
+    .error img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  @media (max-width: 505px){
+    .tempInformation{
+        width: 100%;
+    }
+    .top_layer p{
+        padding: 1rem;
+    }
+    .main_layer{
+        padding: 1rem;
+    }
+    .main_layer .middle_layer p,
+.main_layer .middle_layer .fa{
+    font-size: 4rem;
+    /* font-weight: 500; */
+}
+  }
